@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kechengsun/info340-exercise7/precache-manifest.590c871788d370ae2539351faeb5eab1.js"
+  "/info340-exercise7/precache-manifest.33e5080d31c4d8cec010856f31dec7fc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kechengsun/info340-exercise7/index.html", {
+workbox.routing.registerNavigationRoute("/info340-exercise7/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
